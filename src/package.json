@@ -8,8 +8,8 @@
       "ios": "6.1.0"
     }
   },
-  "main": "audioplayer",
-  "typings": "audioplayer.d.ts",
+  "main": "index",
+  "typings": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/Notalib/nativescript-audioplayer.git"

@@ -1,4 +1,4 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:nota="@nota/nativescript-audioplayer" loaded="pageLoaded">
     <!--
     The ActionBar is the NativeScript common abstraction over the Android ActionBar and iOS NavigationBar.
     http://docs.nativescript.org/ui/action-bar
@@ -8,6 +8,7 @@
         </ActionBar>
     </Page.actionBar>
   <StackLayout>
+    <nota:CastButton></nota:CastButton>
     <Label text="{{ message }}" class="message" textWrap="true"/>
     <Button text="Play" tap="{{ play }}"/>
     <Button text="Pause" tap="{{ pause }}"/>
